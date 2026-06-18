@@ -4,6 +4,18 @@ A professional, real-time API Rate Limiting dashboard and backend system. This p
 
 ---
 
+## Links
+
+1. Youtube Demo Video:
+```text
+https://www.youtube.com/watch?v=ScePRdUNRNw
+```
+
+2. API Documentation (Postman):
+```text
+https://documenter.getpostman.com/view/39216679/2sBXqCNiTR
+```
+
 ## 🚀 Key Features
 
 *   **🔐 Multi-Layer Authentication:** Secure authentication and validation with unique **API Key generation** for every user.
@@ -50,23 +62,6 @@ A professional, real-time API Rate Limiting dashboard and backend system. This p
 - **Recharts** (Visual Analytics)
 - **Lucide Icons**
 - **Vanilla CSS** (Custom Premium Glassmorphism UI)
-
----
-
-## 📖 API Documentation
-
-The complete API documentation including request bodies, headers, and authentication flows can be found here:
-
-🔗 **[Postman API Documentation (Public Link)](https://documenter.getpostman.com/view/39216679/2sBXqCNiTR)**
-
-### Quick Reference:
-| Resource | Path | Method | Access |
-| :--- | :--- | :--- | :--- |
-| **Auth** | `/auth/register` | `POST` | Public |
-| **Auth** | `/auth/login` | `POST` | Public |
-| **Rules**| `/rate-limit/create`| `POST` | Admin |
-| **Stats**| `/analytics/summary`| `GET` | Authenticated |
-| **Logs** | `/logs` | `GET` | Authenticated |
 
 ---
 
